@@ -10,12 +10,14 @@ export default defineConfig({
     ],
     sidebar: [
       {
-        text: 'Articles',
+        text: 'Navigation',
         items: [
-          // This tells VitePress to look into the 'posts' directory
-          { text: 'My First Post', link: '/posts/post-1' },
-          { text: 'Second Article', link: '/posts/post-2' },
-        ],
+          { text: 'Home', link: '/' }
+        ]
+      },
+      {
+        text: 'Articles',
+        items: getPosts() 
       }
     ],
     socialLinks: [

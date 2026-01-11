@@ -3,16 +3,16 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Praxcom Blog",
   description: "Markdown Driven Blog",
-  base: '/', 
+  base: '', 
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },
+      { text: 'Home', link: '' },
     ],
     sidebar: [
       {
         text: 'Navigation',
         items: [
-          { text: 'Home', link: '/' }
+          { text: 'Home', link: '' }
         ]
       },
       {

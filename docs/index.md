@@ -1,11 +1,14 @@
 ---
-layout: home
-hero:
-  name: "Praxcom"
-  text: "My Markdown Blog"
-  tagline: "Simple, clean, and fast."
-  actions:
-    - theme: brand
-      text: Read Blog
-      link: /posts/post-1
+layout: doc
 ---
+
+# Welcome to Praxcom's Blog
+
+This is the main landing page. On the left, you'll find a list of all my recent articles. 
+
+### Recent Highlights
+* **Simplicity:** This blog is powered by Markdown and VitePress.
+* **Speed:** Hosted on GitHub Pages with zero server-side overhead.
+* **Dark Mode:** Enabled by default for a clean, developer-friendly look.
+
+To get started, click on any article in the sidebar!
